@@ -4,7 +4,6 @@ from google.appengine.api import memcache
 from admin.models import Settings
 import webapp2
 import json
-import sys
 import os
 
 
