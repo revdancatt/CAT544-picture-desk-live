@@ -5,9 +5,27 @@ api_version: 1
 threadsafe: yes
 
 handlers:
+
+################################################################################
+# Handlers for the static stuff, img, css, js etc.
+################################################################################
+
+- url: /imgs
+  static_dir: imgs
+
+- url: /img
+  static_dir: img
+
+- url: /css
+  static_dir: css
+
+- url: /js
+  static_dir: js
+
 - url: /favicon\.ico
   static_files: favicon.ico
   upload: favicon\.ico
+
 
 - url: .*
   script: main.app
