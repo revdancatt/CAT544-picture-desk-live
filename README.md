@@ -1,4 +1,6 @@
-CAT544-picture-desk-live
+![Screen Shot](http://cattopus23.com/img/panel-CAT544.jpg)
+
+CAT544 Picture Desk Live
 ========================
 
 A Google AppEngine backend that will go and fetch the
